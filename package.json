@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.14.0"
+  },
+  "scripts": {
+    "build": "cd server && npm i && cd ../client && npm i && npm run build",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctdalton/capstoneStarter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctdalton/capstoneStarter/issues"
+  },
+  "homepage": "https://github.com/ctdalton/capstoneStarter#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
