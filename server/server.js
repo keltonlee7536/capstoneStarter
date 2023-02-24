@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const logger = require('./config/logger')
-
+const morgan = require('morgan')
 const PORT = process.env.PORT || 3001;
 
 const app = express();
