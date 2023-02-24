@@ -4,11 +4,13 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import login from './login';
-import admin from './admin';
-import courses from './courses'
+import login from './Login';
+import admin from './Admin';
+import courses from './Courses'
+import navbar from './Navbar'
 
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Switch from 'react-router-dom';
 
 
 function App() {
@@ -63,28 +65,25 @@ function App() {
           <button onclick="testpage()">testpage()</button>
           */}
 
-          <div className='nav'>
-            <h3 onclick='test()'>login page</h3>
-            <h3>Courses page</h3>
-            <h3>Admin page</h3>
-          </div>
+          navbar
+          <h1>home page</h1>
             
 
-          <switch>
+          <Switch>
 
-            <route exact path='/'>
+            <Route exact path='/'>
               <login />
-            </route>
+            </Route>
 
-            <route path='/admin'>
+            <Route path='/admin'>
               <admin />
-            </route>
+            </Route>
 
-            <route path='/courses'>
+            <Route path='/courses'>
               <courses />
-            </route>
+            </Route>
 
-          </switch>
+          </Switch>
     </div>
   );
 }

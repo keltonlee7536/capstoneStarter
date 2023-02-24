@@ -1,9 +1,3 @@
-const courses = () => {
-    return(
-        <div className='courses'>
-            <h1>THE COURSES PAGE</h1>
-        </div>
-    )
+export default function courses(){
+    return <h1>COURSES PAGE</h1>
 }
-
-export default courses;
