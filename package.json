@@ -12,16 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctdalton/capstoneStarter.git"
+    "url": "git+https://github.com/keltonlee7536/capstoneStarter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ctdalton/capstoneStarter/issues"
+    "url": "https://github.com/keltonlee753/capstoneStarter/issues"
   },
-  "homepage": "https://github.com/ctdalton/capstoneStarter#readme",
+  "homepage": "https://github.com/keltonlee753/capstoneStarter#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.2"
   }
 }
