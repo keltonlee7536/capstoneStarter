@@ -9,8 +9,7 @@ import admin from './Admin';
 import courses from './Courses'
 import navbar from './Navbar'
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Switch from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -66,24 +65,26 @@ function App() {
           */}
 
           navbar
+
           <h1>home page</h1>
             
+            <BrowserRouter>
+              <Routes>
 
-          <Switch>
+                <Route exact path='/'>
+                  <login />
+                </Route>
 
-            <Route exact path='/'>
-              <login />
-            </Route>
+                <Route path='/admin'>
+                  <admin />
+                </Route>
 
-            <Route path='/admin'>
-              <admin />
-            </Route>
+                <Route path='/courses'>
+                  <courses />
+                </Route>
 
-            <Route path='/courses'>
-              <courses />
-            </Route>
-
-          </Switch>
+              </Routes>
+            </BrowserRouter>
     </div>
   );
 }
