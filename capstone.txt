@@ -1,0 +1,28 @@
+Task Breakdown 
+
+Create a web server and configure Express.js
+Create a React/Vue app
+Establish communication between frontend and backend apps.
+Set up an authentication system using bcrypt, passport and jwt
+Set up postgres database
+Create user model - username (unique, required), email (unique, required), hash, isAdmin, firstName, lastName, telephone, address, createDate
+Create course model - id, title, description, schedule, classroom_number, maximum_capacity, credit_hours, tuition_cost
+Create login page
+Create user registration page
+Create courses page
+Create user profile page
+Create admin page
+Create search feature for courses and users
+Create env variables
+Configure logging (Winston/Morgan)
+Create client-side routes
+Create client-side route guard
+Create server-side routes
+Create server-side route guard
+Implement a loading icon
+Sanitize inputs and ensure security
+Logout functionality
+Good directory and code structure
+Refactor as you go
+Responsive design
+Deploy application to render
