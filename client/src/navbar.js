@@ -1,7 +1,13 @@
-export default function navbar(){
-        return <nav className='nav'>
-            <h3 onclick='test()'>login page</h3>
-            <h3>Courses page</h3>
-            <h3>Admin page</h3>
-            </nav>
+import React, { Component } from 'react';
+
+class Navbar extends Component {
+  render() {
+    return (
+        <div>
+          <h2>The Navbar Component</h2>
+        </div>
+    );
+  }
 }
+
+export default Navbar;

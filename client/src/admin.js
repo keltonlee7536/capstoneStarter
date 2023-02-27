@@ -1,3 +1,13 @@
-export default function admin(){
-    return <h1>ADMIN PAGE</h1>
+import React, { Component } from 'react';
+
+class Admin extends Component {
+  render() {
+    return (
+        <div>
+          <h2>Admin</h2>
+        </div>
+    );
+  }
 }
+
+export default Admin;

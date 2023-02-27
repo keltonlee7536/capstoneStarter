@@ -1,3 +1,13 @@
-export default function login(){
-    return <h1>LOGIN PAGE</h1>
+import React, { Component } from 'react';
+
+class Login extends Component {
+  render() {
+    return (
+        <div>
+          <h2>Login</h2>
+        </div>
+    );
+  }
 }
+
+export default Login;
