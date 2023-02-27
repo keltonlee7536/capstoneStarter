@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.loginOverall, .signOverall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top left, #A100FF, #119CFD);
+  color: #fff;
+}
+.loginOverall .loginContainer, .loginOverall .signContainer, .signOverall .loginContainer, .signOverall .signContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px 75px 25px 75px;
+  background-color: #171717;
+}
+.loginOverall .loginContainer .loginHeader, .loginOverall .loginContainer .signHeader, .loginOverall .signContainer .loginHeader, .loginOverall .signContainer .signHeader, .signOverall .loginContainer .loginHeader, .signOverall .loginContainer .signHeader, .signOverall .signContainer .loginHeader, .signOverall .signContainer .signHeader {
+  font-size: 25px;
+}
+.loginOverall .loginContainer .credentials, .loginOverall .signContainer .credentials, .signOverall .loginContainer .credentials, .signOverall .signContainer .credentials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginOverall .loginContainer .credentials input, .loginOverall .loginContainer .credentials label, .loginOverall .loginContainer .credentials button, .loginOverall .signContainer .credentials input, .loginOverall .signContainer .credentials label, .loginOverall .signContainer .credentials button, .signOverall .loginContainer .credentials input, .signOverall .loginContainer .credentials label, .signOverall .loginContainer .credentials button, .signOverall .signContainer .credentials input, .signOverall .signContainer .credentials label, .signOverall .signContainer .credentials button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 120%;
+}
+.loginOverall .loginContainer .credentials input, .loginOverall .signContainer .credentials input, .signOverall .loginContainer .credentials input, .signOverall .signContainer .credentials input {
+  background-color: #484848;
+  opacity: 80%;
+  outline: none;
+  color: white;
+}
+.loginOverall .loginContainer .credentials button, .loginOverall .signContainer .credentials button, .signOverall .loginContainer .credentials button, .signOverall .signContainer .credentials button {
+  width: 130%;
+  margin-top: 40px;
+  background-color: #119CFD;
+  cursor: pointer;
+}
+.loginOverall .loginContainer .credentials button:hover, .loginOverall .signContainer .credentials button:hover, .signOverall .loginContainer .credentials button:hover, .signOverall .signContainer .credentials button:hover {
+  background-color: #A100FF;
+  transition: 0.3s;
+}
+.loginOverall .loginContainer #signCredentials, .loginOverall .signContainer #signCredentials, .signOverall .loginContainer #signCredentials, .signOverall .signContainer #signCredentials {
+  flex-direction: row;
+  width: 50%;
+}
+.loginOverall .loginContainer .signUp, .loginOverall .signContainer .signUp, .signOverall .loginContainer .signUp, .signOverall .signContainer .signUp {
+  padding: 10px;
+  font-size: 20px;
+}
+.loginOverall .loginContainer .signUp span, .loginOverall .signContainer .signUp span, .signOverall .loginContainer .signUp span, .signOverall .signContainer .signUp span {
+  text-decoration: underline;
+  color: #119CFD;
+  cursor: pointer;
+}
+.loginOverall .loginContainer .signUp span:hover, .loginOverall .signContainer .signUp span:hover, .signOverall .loginContainer .signUp span:hover, .signOverall .signContainer .signUp span:hover {
+  color: #A100FF;
+}
+
+/*# sourceMappingURL=style.css.map */
